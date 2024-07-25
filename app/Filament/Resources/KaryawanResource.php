@@ -82,8 +82,7 @@ class KaryawanResource extends Resource
                 ->sortable()
                 ->searchable(),
             Tables\Columns\ImageColumn::make('foto')
-                ->label('Foto')
-                ->sortable(),
+                ->label('Foto'),
             Tables\Columns\TextColumn::make('created_at')
                 ->label('Created At')
                 ->dateTime(),
